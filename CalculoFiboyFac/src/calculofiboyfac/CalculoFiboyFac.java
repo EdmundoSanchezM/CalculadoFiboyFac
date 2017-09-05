@@ -7,8 +7,8 @@ package calculofiboyfac;
 
 
 /**
- *
- * @author Sanchez Mendez Edmundo y Rodriguez Morua Genaro
+ * Calculadora de Fibonacci y Factorial
+ * @author Sanchez Mendez Edmundo Josue, Rodriguez Morua Genaro
  * @version 1.0 20/08/17
  */
 public class CalculoFiboyFac {
@@ -16,7 +16,11 @@ public class CalculoFiboyFac {
     /**
      * @param args the command line arguments
      */
-    //Ejecuta el programa
+    /**
+    * <h3>Main</h3>
+    *
+    *  Ejecuta el programa
+    */
     public static void main(String[] args) {
         // TODO code application logic here
         Home objh = new Home();

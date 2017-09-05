@@ -19,8 +19,8 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
 /**
- *
- * @author Sanchez Mendez Edmundo y Rodriguez Morua Genaro
+ * Calculadora de Fibonacci y Factorial
+ * @author Sanchez Mendez Edmundo Josue, Rodriguez Morua Genaro
  * @version 1.0 20/08/17
  */
 public class Home extends JFrame implements ActionListener{
@@ -39,7 +39,12 @@ public class Home extends JFrame implements ActionListener{
         configurarVentana();
        iniciarComponentes();
     }
-    //Configuramos el tamaño y otras caracteristicas de la ventana
+    /**
+ * <h3>Configurar ventana</h3>
+ * Configuramos el tamaño y otras caracteristicas de la ventana
+ * 
+ */
+    
     public void configurarVentana(){
         setTitle("Convertido de numero entero a Fibonacci & Factorial");
         setSize(600,510);
@@ -49,7 +54,12 @@ public class Home extends JFrame implements ActionListener{
         setBackground(new Color(220,216,255));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-    //Inicialiciamos los componentes que la ventana tendra
+    /**
+    * <h3>Inicia Componentes</h3>
+    *
+    * Inicialiciamos los componentes que la ventana tendra
+    */
+    
     public void iniciarComponentes(){
         titulo = new JLabel("Convertidor de numero entero a Fibonacci & Factorial");
         titulo.setBounds(30, 25, 750, 30);
@@ -97,7 +107,12 @@ public class Home extends JFrame implements ActionListener{
         add(resultado1);
         resultado1.setVisible(true);
     }
-    //Damos instrucciones a los botones
+    /**
+    * <h3>Acciones</h3>
+    *  Damos instrucciones a los botones
+    * @param e lo ocupamos para que escuche la accion de los botones
+    */
+    
     @Override
     public void actionPerformed(ActionEvent e){
        //valida los campos
